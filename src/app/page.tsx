@@ -16,12 +16,10 @@ export default function Home() {
         <section className="flex justify-between mb-20 pt-10">
           <div className="w-[628px] ml-[calc((100vw-1165px)/2)]">
             <h1 className="text-[56px] font-bold mb-5">
-              Committed to People Committed to{" "}
-              <span className="text-primary">The Future</span>
+              Connect People to <span className="text-primary">The Future</span>
             </h1>
             <p className="mb-10">
-              An enim nullam tempor sapien gravida donec enim ipsum porta justo
-              congue magna at
+              Help you build anything to make your ideas come true.
             </p>
             <Button>Get started now</Button>
           </div>

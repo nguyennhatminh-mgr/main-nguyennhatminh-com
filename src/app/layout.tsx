@@ -2,11 +2,18 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import CardScreensImage from "@/images/card_screens.png";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Minh's home page",
-  description: "Follow to view more information",
+  title: "Connect people to the future",
+  description: "Help you build anything to make your ideas come true",
+  openGraph: {
+    title: "Connect people to the future",
+    description: "Help you build anything to make your ideas come true",
+    images: CardScreensImage.src,
+  },
 };
 
 export default function RootLayout({
