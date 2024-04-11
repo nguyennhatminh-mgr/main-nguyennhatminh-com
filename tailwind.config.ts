@@ -15,6 +15,9 @@ const config: Config = {
         "gradient-test":
           "linear-gradient(0deg, rgba(1, 93, 91, 0.10) 0%, rgba(1, 93, 91, 0.10) 100%)",
       },
+      colors: {
+        primary: "#8976FD",
+      },
     },
   },
   plugins: [],
