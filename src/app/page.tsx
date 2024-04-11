@@ -14,11 +14,11 @@ export default function Home() {
     <div>
       <Header />
       <main className="min-h-[calc(100vh-246px)]">
-        <section className="flex justify-between mb-20 pt-10 relative">
-          <div className="absolute left-[60px] -top-[30px]">
-            <Image src={CandleImage} alt="candle" className="w-[168px]" />
-          </div>
-          <div className="w-[628px] ml-[calc((100vw-1165px)/2)]">
+        <section className="flex justify-between mb-20 pt-10">
+          <div className="w-[628px] ml-[calc((100vw-1165px)/2)] relative">
+            <div className="absolute -left-[140px] -top-[30px]">
+              <Image src={CandleImage} alt="candle" className="w-[168px]" />
+            </div>
             <h1 className="text-[56px] font-bold mb-5">
               Connect People to <span className="text-primary">The Future</span>
             </h1>
