@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import CardScreensImage from "@/images/card_screens.png";
+import CandleImage from "@/images/candle.png";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Button from "@/components/Button";
@@ -13,7 +14,10 @@ export default function Home() {
     <div>
       <Header />
       <main className="min-h-[calc(100vh-246px)]">
-        <section className="flex justify-between mb-20 pt-10">
+        <section className="flex justify-between mb-20 pt-10 relative">
+          <div className="absolute left-[60px] -top-[30px]">
+            <Image src={CandleImage} alt="candle" className="w-[168px]" />
+          </div>
           <div className="w-[628px] ml-[calc((100vw-1165px)/2)]">
             <h1 className="text-[56px] font-bold mb-5">
               Connect People to <span className="text-primary">The Future</span>
