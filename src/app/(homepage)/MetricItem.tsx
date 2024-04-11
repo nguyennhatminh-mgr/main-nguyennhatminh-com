@@ -11,7 +11,7 @@ const MetricItem: React.FC<MetricItemProps> = (props) => {
   const { icon, color, title, description } = props;
 
   return (
-    <div className="flex items-center justify-between w-[274px]">
+    <div className="flex items-center gap-8 w-[294px]">
       <div
         style={{ backgroundColor: color }}
         className="w-32 h-32 rounded-[40px] flex items-center justify-center"

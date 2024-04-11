@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Button from "@/components/Button";
 import MetricItem from "./(homepage)/MetricItem";
 import UserIcon from "@/icons/UserIcon";
+import DownloadIcon from "@/icons/DownloadIcon";
 
 export default function Home() {
   return (
@@ -40,13 +41,13 @@ export default function Home() {
             description="Active users"
           />
           <MetricItem
-            icon={<UserIcon />}
+            icon={<DownloadIcon />}
             color="#FFF1CE"
             title="30K"
             description="Total download"
           />
           <MetricItem
-            icon={<UserIcon />}
+            icon={<UserIcon color="#6DEDC3" />}
             color="#E2FBF3"
             title="10K"
             description="Customer"
