@@ -17,7 +17,7 @@ const Header = () => {
         />
         <p className="text-xl font-semibold">Minh&apos;s group</p>
       </Link>
-      <div className="flex items-center gap-6">
+      <div className="flex items-center gap-10">
         <LinkItem href="/home">Home</LinkItem>
         <LinkItem href="/home">About us</LinkItem>
         <LinkItem href="/home">Services</LinkItem>

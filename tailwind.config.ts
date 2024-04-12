@@ -16,7 +16,12 @@ const config: Config = {
           "linear-gradient(0deg, rgba(1, 93, 91, 0.10) 0%, rgba(1, 93, 91, 0.10) 100%)",
       },
       colors: {
-        primary: "#8976FD",
+        // primary: "#8976FD",
+        primary: "#34B5F7",
+        mirage: "#1E1D36",
+        mirageLight: "rgba(30, 29, 54, 0.7)",
+        primaryBold: "#1C91CE",
+        jacarta: "#292C67",
       },
     },
   },

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import CardScreensImage from "@/images/card_screens.png";
 import CandleImage from "@/images/candle.png";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Button from "@/components/Button";
+import Header from "@/app/(components)/Header";
+import Footer from "@/app/(components)/Footer";
+import Button from "@/app/(components)/Button";
 import MetricItem from "./(homepage)/MetricItem";
 import UserIcon from "@/icons/UserIcon";
 import DownloadIcon from "@/icons/DownloadIcon";

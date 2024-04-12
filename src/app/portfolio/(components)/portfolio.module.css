@@ -1,0 +1,29 @@
+@keyframes top_bottom {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  75% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.headerImage {
+  animation: top_bottom 4s infinite;
+}
+
+.wrapHeaderImage {
+  @apply xl:w-5/12;
+}
+
+.wrapHeaderImage > span {
+  overflow: visible !important;
+}
